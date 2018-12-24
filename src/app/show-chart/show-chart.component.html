@@ -1,0 +1,25 @@
+<h1>
+  show-chart works!
+</h1>
+<div>
+  <app-double-axis-chart
+    [view]="view"
+    [scheme]="colorScheme"
+    [results]="multi"
+    [gradient]="gradient"
+    [xAxis]="showXAxis"
+    [yAxis]="showYAxis"
+    [legend]="showLegend"
+    [showXAxisLabel]="showXAxisLabel"
+    [yMainAxisShowLabel]="showYAxisLabel"
+    [ySecondaryAxisShowLabel]="showYAxisLabel"
+    [xAxisLabel]="xAxisLabel"
+    [yMainAxisLabel]="yAxisLabel"
+    [ySecondaryAxisLabel]="yAxisLabel2"
+    [autoScale]="autoScale"
+    [timeline]="timeLine"
+    [tooltipDisabled]="tooltipDisabled"
+    [animations]="animations"
+    (select)="onSelect($event)">
+  </app-double-axis-chart>
+</div>
